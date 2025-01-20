@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <script src="script.js"></script>
+<body>
+    <h3 id="ex">Javascript code</h3>
+    <button type="button" onclick="example()">
+        click me !
+    </button>
+    <button type="button" onclick="example2()">
+        External js
+    </button>
+    <script>
+        function example(){
+            document.getElementById("ex").innerHTML='hi from internal js'
+        }
+    </script>
+</body>
